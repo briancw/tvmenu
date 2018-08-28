@@ -1,1 +1,1 @@
-<!-- - [ ] Better Design -->
+- [ ] Strip out SSR elements

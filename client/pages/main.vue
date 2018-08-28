@@ -1,8 +1,6 @@
 <template>
     <div id="pageWrapper">
-        <router-link to="/main">Main Menu Items</router-link>
-        <router-link to="/burgers">Burgers</router-link>
-        <router-link to="/drinks">Drinks</router-link>
+        <tvmenu v-bind:menudata="menudata"></tvmenu>
     </div>
 </template>
 

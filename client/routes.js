@@ -5,16 +5,17 @@ Vue.use(Router)
 import defaultLayout from './layouts/default.vue'
 
 const home = loadPage('home')
-const fourOhFour = loadPage('fourohfour')
+const main = loadPage('main')
+const burgers = loadPage('burgers')
+const drinks = loadPage('drinks')
 
 const routes = [
     {path: '/', component: defaultLayout, children: [
         {path: '/', component: home, name: 'home'},
-        {path: '/404', component: fourOhFour},
-    ]},
-    {path: '/', component: defaultLayout, children: [
-        {path: '*', component: fourOhFour},
-    ]},
+        {path: '/main', component: main, name: 'main'},
+        {path: '/burgers', component: burgers, name: 'burgers'},
+        {path: '/drinks', component: drinks, name: 'drinks'},
+    ]}
 ]
 
 /**
