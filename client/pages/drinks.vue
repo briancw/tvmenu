@@ -18,14 +18,9 @@ export default {
                 title: 'Ice Cold Drinks',
                 items: [
                     {
-                        title: `Pepsi
-                        Diet Pepsi
-                        Dr. Pepper
-                        Sierra Mist
-                        Mt. Dew
-                        Root Beer
-                        Lemonade
-                        Strawberry Lemonade`,
+                        title: `Pepsi, Diet Pepsi,
+                        Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer,
+                        Lemonade, Strawberry Lemonade`,
                     },
                     {
                         title: 'Small',
