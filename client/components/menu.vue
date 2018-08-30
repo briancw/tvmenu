@@ -36,17 +36,17 @@ export default {
     .title {
         font-size: 100px;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .items {
-        padding-top: 20px;
+        padding-top: 10px;
         width: 90%;
         margin: 0px auto;
 
         .menuItem {
             clear: both;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
 
             .menuPic {
                 display: inline-block;
