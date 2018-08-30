@@ -33,16 +33,16 @@ export default {
                     },
                     {
                         title: 'Medium',
-                        price: 4,
+                        price: 3.5,
                     },
                     {
                         title: 'Large',
-                        price: 5,
+                        price: 4,
                     },
                     {
                         title: 'Special Refill Cup',
                         description: 'Half Price Refils',
-                        price: 6,
+                        price: 5,
                     },
                 ],
             },

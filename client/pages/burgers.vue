@@ -38,10 +38,6 @@ export default {
                         price: 9,
                         description: 'Served with grilled onions, bacon, cheese, and barbecue sauce',
                     },
-                    {
-                        title: 'Blue Cheese Burger',
-                        price: 9,
-                    },
                 ],
             },
         }

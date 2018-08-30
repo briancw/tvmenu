@@ -34,19 +34,19 @@ export default {
     text-shadow: 4px 4px 0px #000;
 
     .title {
-        font-size: 120px;
+        font-size: 100px;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .items {
-        padding-top: 40px;
+        padding-top: 20px;
         width: 90%;
         margin: 0px auto;
 
         .menuItem {
             clear: both;
-            margin-bottom: 80px;
+            margin-bottom: 40px;
 
             .menuPic {
                 display: inline-block;
@@ -58,7 +58,7 @@ export default {
                 padding-top: 5px;
 
                 .menuItemTitle {
-                    font-size: 72px;
+                    font-size: 62px;
                 }
 
                 .menuItemDescription {

@@ -37,7 +37,7 @@ export default {
                     },
                     {
                         title: 'Jumbo Hot Dog',
-                        price: 5,
+                        price: 6,
                         description: 'A Jumbo quarter pound hot dog served on an outdoor roll',
                     },
                 ],
