@@ -19,23 +19,23 @@ export default {
                 items: [
                     {
                         title: 'Hamburger',
-                        price: 7,
+                        price: 6.5,
                     },
                     {
                         title: 'Cheeseburger',
-                        price: 8,
+                        price: 7,
                     },
                     {
                         title: 'Bacon Cheeseburger',
-                        price: 9,
+                        price: 8,
                     },
                     {
                         title: 'Mushroom Swiss Burger',
-                        price: 9,
+                        price: 8,
                     },
                     {
                         title: 'Western Barbecue Burger',
-                        price: 9,
+                        price: 8,
                         description: 'Served with grilled onions, bacon, cheese, and barbecue sauce',
                     },
                 ],
