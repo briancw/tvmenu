@@ -28,16 +28,16 @@ export default {
                     },
                     {
                         title: 'Medium',
-                        price: 3.5,
-                    },
-                    {
-                        title: 'Large',
                         price: 4,
                     },
                     {
-                        title: 'Special Refill Cup',
-                        description: 'Half Price Refils',
+                        title: 'Large',
                         price: 5,
+                    },
+                    {
+                        title: 'Special Refill Cup',
+                        description: 'Half Price Refills',
+                        price: 6,
                     },
                 ],
             },
