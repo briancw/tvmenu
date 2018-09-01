@@ -21,6 +21,13 @@ export default {
     mounted() {
         let previousPage = this.$route.name
         localStorage.setItem('previousPage', previousPage)
+
+        document.addEventListener('keypress', (e) => {
+            if (e.keyCode === 113) {
+                localStorage.removeItem('previousPage')
+                this.$router.push('/')
+            }
+        })
     },
 }
 </script>
