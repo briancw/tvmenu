@@ -14,6 +14,12 @@ export default {
     components: {
         tvmenu,
     },
+    mounted() {
+        let previousPage = localStorage.getItem('previousPage')
+        if (previousPage) {
+            this.$router.push({name: previousPage})
+        }
+    },
 }
 </script>
 

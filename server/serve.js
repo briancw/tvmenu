@@ -3,14 +3,13 @@ const express = require('express')
 const app = express()
 const frontendPort = 3000
 const bodyParser = require('body-parser')
+const fallback = require('express-history-api-fallback')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.use('/', express.static(path.resolve(__dirname, '../', 'public')))
-// app.use('/dist/', express.static(path.resolve(__dirname, '../', 'dist')))
-
-app.use('/', express.static(path.resolve(__dirname, '../', 'dist', 'index.html')))
+app.use(fallback('index.html', {root: path.resolve(__dirname, '../', 'public')}))
 
 app.listen(frontendPort, (err) => {
     if (err) {

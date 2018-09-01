@@ -3,7 +3,6 @@ const webpack = require('webpack')
 
 // Core Deps required for packing
 const {VueLoaderPlugin} = require('vue-loader')
-const MinifyPlugin = require('babel-minify-webpack-plugin')
 
 // Dev tools
 const Visualizer = require('webpack-visualizer-plugin')
@@ -66,7 +65,6 @@ let config = {
 if (process.env.NODE_ENV === 'production') {
     config.plugins.push(
         new Visualizer({filename: '../stats.html'}),
-        new MinifyPlugin(),
     )
     config.optimization.splitChunks = {
         cacheGroups: {

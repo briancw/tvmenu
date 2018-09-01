@@ -19,8 +19,5 @@ if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
 }
 
 router.onReady(() => {
-    console.log(window.location)
-    router.push('/')
-
     app.$mount('#app')
 })

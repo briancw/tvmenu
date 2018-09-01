@@ -5,15 +5,14 @@ const path = require('path')
 const express = require('express')
 const serverApp = express()
 const bodyParser = require('body-parser')
+const fallback = require('express-history-api-fallback')
 const port = 3000
 
 serverApp.use(bodyParser.json())
 serverApp.use(bodyParser.urlencoded({extended: true}))
 
 serverApp.use('/', express.static(path.resolve(__dirname, 'public')))
-// serverApp.use('/dist/', express.static(path.resolve(__dirname, '../', 'dist')))
-
-serverApp.use('/', express.static(path.resolve(__dirname, 'dist', 'index.html')))
+serverApp.use(fallback('index.html', {root: path.resolve(__dirname, 'public')}))
 
 serverApp.listen(port, (err) => {
     if (err) {
@@ -24,7 +23,7 @@ serverApp.listen(port, (err) => {
 
 function createWindow() {
     // Create the browser window.
-    win = new BrowserWindow({width: 1920, height: 1080, frame: false})
+    win = new BrowserWindow({width: 1920, height: 1080, frame: false, fullscreen: true})
 
     // and load the index.html of the app.
     // win.loadFile('./public/index.html')

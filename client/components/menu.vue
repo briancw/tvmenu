@@ -18,6 +18,10 @@
 export default {
     name: 'menu',
     props: ['menudata'],
+    mounted() {
+        let previousPage = this.$route.name
+        localStorage.setItem('previousPage', previousPage)
+    },
 }
 </script>
 
@@ -32,11 +36,13 @@ export default {
     // font-family: 'Ubuntu';
     font-family: 'Baloo Tammudu';
     text-shadow: 4px 4px 0px #000;
+    cursor: none;
 
     .title {
         font-size: 100px;
         text-align: center;
         padding-top: 10px;
+        color: yellow;
     }
 
     .items {
@@ -59,6 +65,7 @@ export default {
 
                 .menuItemTitle {
                     font-size: 62px;
+                    color: yellow;
                 }
 
                 .menuItemDescription {
