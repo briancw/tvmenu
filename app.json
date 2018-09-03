@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "tvmenu",
+            "script": "npm",
+            "args": "run electron"
+        }
+    ]
+}
