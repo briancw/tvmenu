@@ -22,10 +22,15 @@ export default {
         let previousPage = this.$route.name
         localStorage.setItem('previousPage', previousPage)
 
+        // let menuPages = ['main', 'burgers', 'drinks']
+        // let currentIndex = indexOf(previousPage)
+
         document.addEventListener('keypress', (e) => {
             if (e.keyCode === 113) {
                 localStorage.removeItem('previousPage')
                 this.$router.push('/')
+            }
+            if (e.keyCode === 39 || e.keyCode === 78) { // right arrow or N
             }
         })
     },
@@ -71,12 +76,12 @@ export default {
                 padding-top: 5px;
 
                 .menuItemTitle {
-                    font-size: 62px;
+                    font-size: 58px;
                     color: yellow;
                 }
 
                 .menuItemDescription {
-                    font-size: 42px;
+                    font-size: 38px;
                     padding: 10px 10px;
                 }
 
