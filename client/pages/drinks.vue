@@ -18,8 +18,7 @@ export default {
                 title: 'Ice Cold Drinks',
                 items: [
                     {
-                        title: `Pepsi, Diet Pepsi,
-                        Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer,
+                        title: `Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer,
                         Lemonade, Strawberry Lemonade`,
                     },
                     {
@@ -28,16 +27,20 @@ export default {
                     },
                     {
                         title: 'Medium',
-                        price: 4,
+                        price: 3.5,
                     },
                     {
                         title: 'Large',
-                        price: 5,
+                        price: 4,
                     },
                     {
                         title: 'Special Refill Cup',
                         description: 'Half Price Refills',
-                        price: 6,
+                        price: 5,
+                    },
+                    {
+                        title: 'Bottled Water',
+                        price: 2.5,
                     },
                 ],
             },
