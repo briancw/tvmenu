@@ -33,11 +33,11 @@ export default {
                         title: 'Large',
                         price: 4,
                     },
-                    {
-                        title: 'Special Refill Cup',
-                        description: 'Half Price Refills',
-                        price: 5,
-                    },
+                    // {
+                    //     title: 'Special Refill Cup',
+                    //     description: 'Half Price Refills',
+                    //     price: 5,
+                    // },
                     {
                         title: 'Bottled Water',
                         price: 2.5,
