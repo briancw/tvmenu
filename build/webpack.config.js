@@ -17,7 +17,7 @@ let config = {
     },
     output: {
         path: path.resolve(__dirname, '../', 'public', 'dist'),
-        publicPath: './dist/',
+        publicPath: '/dist/',
         filename: '[name]-bundle.js',
     },
     module: {
@@ -59,24 +59,25 @@ let config = {
             'process.env.VUE_ENV': '"client"',
         }),
     ],
-    optimization: {},
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    chunks: 'initial',
+                    // chunks: 'all',
+                    name: 'vendor',
+                    enforce: true,
+                },
+            },
+        }
+    },
 }
 
 if (process.env.NODE_ENV === 'production') {
     config.plugins.push(
         new Visualizer({filename: '../stats.html'}),
     )
-    config.optimization.splitChunks = {
-        cacheGroups: {
-            vendor: {
-                test: /[\\/]node_modules[\\/]/,
-                chunks: 'initial',
-                // chunks: 'all',
-                name: 'vendor',
-                enforce: true,
-            },
-        },
-    }
 } else {
     config.devtool = 'cheap-module-eval-source-map'
     // config.devtool = 'cheap-eval-source-map'
