@@ -13,10 +13,9 @@ if (process.env.NODE_ENV === 'development') {
     console.log('Running in development mode!')
 
     const hmr = require('./hmr.js')(app)
-} else {
-    app.use('/', express.static(path.resolve(__dirname, '../', 'public')))
 }
 
+app.use('/', express.static(path.resolve(__dirname, '../', 'public')))
 app.use(fallback('index.html', {root: path.resolve(__dirname, '../', 'public')}))
 
 
