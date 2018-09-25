@@ -1,0 +1,6 @@
+{
+    "apps": [{
+        "name": "auto-updater",
+        "script": "updater.js"
+    }]
+}
