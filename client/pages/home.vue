@@ -7,13 +7,9 @@
 </template>
 
 <script>
-import tvmenu from '../components/menu.vue'
 
 export default {
     name: 'home',
-    components: {
-        tvmenu,
-    },
     data() {
         return {
             menuContent: {},
