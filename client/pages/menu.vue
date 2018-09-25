@@ -1,9 +1,9 @@
 <template>
     <div class="menuWrapper">
-        <div class="title">{{ menudata.title }}</div>
+        <div class="title">{{ pageContent.displayTitle }}</div>
         <div class="items">
-            <div v-for="(item, itemIndex) in menudata.items" class="menuItem" :key="itemIndex">
-                <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" />
+            <div v-for="(item, itemIndex) in pageContent.items" class="menuItem" :key="itemIndex">
+                <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
                 <div class="itemDetails">
                     <div class="menuItemTitle" v-html="nl2br(item.title)"></div>
                     <div class="menuItemDescription" v-if="item.description">{{ item.description }}</div>
@@ -16,14 +16,20 @@
 
 <script>
 export default {
-    name: 'menu',
-    props: ['menudata'],
+    name: 'menupage',
+    data() {
+        return {
+            menuPage: '',
+            pageContent: {},
+        }
+    },
     mounted() {
-        let previousPage = this.$route.name
-        localStorage.setItem('previousPage', previousPage)
+        let currentPage = this.$route.path
+        localStorage.setItem('previousPage', currentPage)
 
-        // let menuPages = ['main', 'burgers', 'drinks']
-        // let currentIndex = indexOf(previousPage)
+        this.menuPage = this.$route.params.menupage
+
+        this.getMenuData()
 
         document.addEventListener('keypress', (e) => {
             if (e.keyCode === 113) {
@@ -34,6 +40,18 @@ export default {
             }
         })
     },
+    methods: {
+        async getMenuData() {
+            let res = await fetch('/menu.json')
+            let menuContent = await res.json()
+
+            menuContent.pages.forEach(page => {
+                if (page.pageName === this.menuPage) {
+                    this.pageContent = page
+                }
+            })
+        }
+    }
 }
 </script>
 
