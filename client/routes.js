@@ -6,11 +6,13 @@ import defaultLayout from './layouts/default.vue'
 
 const home = loadPage('home')
 const menu = loadPage('menu')
+const reset = loadPage('reset')
 
 const routes = [
     {path: '/', component: defaultLayout, children: [
         {path: '/', component: home, name: 'home'},
         {path: '/menu/:menupage', component: menu, name: 'menu'},
+        {path: '/reset', component: reset, name: 'reset'},
     ]}
 ]
 

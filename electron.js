@@ -31,7 +31,12 @@ function createWindow() {
     })
 
     // win.loadFile('./public/index.html')
-    win.loadURL('http://localhost:3000/')
+
+    if (process.env.MENU_RESET) {
+        win.loadURL('http://localhost:3000/reset')
+    } else {
+        win.loadURL('http://localhost:3000/')
+    }
 }
 
 app.on('ready', createWindow)

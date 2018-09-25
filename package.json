@@ -9,7 +9,8 @@
         "pack": "NODE_ENV=development webpack --config build/webpack.config.js --progress --hide-modules",
         "pack-production": "NODE_ENV=production webpack --config build/webpack.config.js --progress --hide-modules",
         "clean": "rm public/dist/*",
-        "electron": "electron electron.js"
+        "electron": "electron electron.js",
+        "reset": "MENU_RESET=true electron electron.js"
     },
     "keywords": [],
     "author": "",
