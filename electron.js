@@ -23,11 +23,14 @@ serverApp.listen(port, (err) => {
 
 function createWindow() {
     // Create the browser window.
-    win = new BrowserWindow({width: 1920, height: 1080, frame: false, fullscreen: true})
+    win = new BrowserWindow({
+        width: 1920,
+        height: 1080,
+        // frame: false,
+        fullscreen: true
+    })
 
-    // and load the index.html of the app.
     // win.loadFile('./public/index.html')
-    // win.loadURL('http://localhost:3000')
     win.loadURL('http://localhost:3000/')
 }
 
