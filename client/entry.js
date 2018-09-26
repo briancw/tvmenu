@@ -8,6 +8,5 @@ if (window.__INITIAL_STATE__) {
 }
 
 router.onReady(() => {
-    localStorage.clear()
     app.$mount('#app')
 })
