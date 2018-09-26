@@ -37,5 +37,5 @@ async function checkForUpdates() {
 }
 
 // Check for updates every 10 minutes
-const updateCheckTime = 1000 * 60 * 10
+const updateCheckTime = 1000 * 60 * 5
 setInterval(checkForUpdates, updateCheckTime)

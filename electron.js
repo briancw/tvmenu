@@ -26,7 +26,7 @@ function createWindow() {
     win = new BrowserWindow({
         width: 1920,
         height: 1080,
-        // frame: false,
+        frame: false,
         fullscreen: true
     })
 
