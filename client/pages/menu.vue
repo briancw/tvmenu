@@ -82,7 +82,7 @@ export default {
 
         .menuItem {
             clear: both;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
 
             .menuPic {
                 display: inline-block;
