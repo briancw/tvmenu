@@ -7,4 +7,6 @@ git reset --hard
 git pull
 npm install
 npm run pack-production
+
 pm2 startOrRestart app.json
+pm2 startOrRestart updater.json
