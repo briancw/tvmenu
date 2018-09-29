@@ -18,7 +18,7 @@ async function checkForUpdates() {
     let {data: {updated_at}} = response
 
     console.log(`Checking for updates. ${new Date}`)
-    console.log(`Current version: ${updated_at}`
+    console.log(`Current version: ${updated_at}`)
     console.log(`Last known version: ${lastUpdate}\n`)
 
     if (updated_at) {
