@@ -17,8 +17,9 @@ async function checkForUpdates() {
 
     let {data: {updated_at}} = response
 
+    console.log(`Checking for updates. ${new Date}`)
     console.log(updated_at, lastUpdate)
-    
+
     if (updated_at) {
         if (updated_at !== lastUpdate) {
             // If time of the latest change doesn't match the last known time, save it
