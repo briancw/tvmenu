@@ -4,8 +4,8 @@ const http2 = require('http2')
 const exec = require('child_process').exec
 const softwareVersionFile = 'last-update-software.txt'
 const contentVersionFile = 'last-update-content.txt'
-const contentFile = 'content.json'
-const {userId} = require('./config.js')
+// const contentFile = 'content.json'
+// const {userId} = require('./config.js')
 const apiServer = 'https://local.whicheloe.us:3001'
 // const apiServer = 'https://signage.whicheloe.us'
 
@@ -19,9 +19,12 @@ if (!fs.existsSync(contentVersionFile)) {
 
 // Get the time of the last software update from a text file
 const lastUpdateSoftware = fs.readFileSync(softwareVersionFile, 'utf8')
-const lastUpdateContent = fs.readFileSync(contentVersionFile, 'utf8')
+// const lastUpdateContent = fs.readFileSync(contentVersionFile, 'utf8')
 
 // Poll the software respository for the time of the latest update
+/**
+ * @function checkForSoftwareUpdate
+ */
 async function checkForSoftwareUpdate() {
     let response = await axios.get('https://api.github.com/repos/briancw/tvmenu')
 
@@ -51,12 +54,10 @@ async function checkForSoftwareUpdate() {
     }
 }
 
+/**
+ * @function checkForContentUpdate
+ */
 async function checkForContentUpdate() {
-    // let response = await axios.get(`${apiServer}/content`, {
-    //     headers: {
-    //         userId,
-    //     }
-    // })
     let session = http2.connect(`${apiServer}`)
     let request = session.request({
         ':path': '/content',
@@ -67,7 +68,8 @@ async function checkForContentUpdate() {
         let data = ''
 
         request.on('data', (chunk) => {
- data += chunk })
+            data += chunk
+        })
         .on('end', () => {
             console.log(data)
         })
@@ -88,7 +90,7 @@ async function checkForContentUpdate() {
 
 // Check for updates every 10 minutes
 const softwareInterval = 1000 * 60 * 5
-const contentInterval = 1000 * 60
+// const contentInterval = 1000 * 60
 
 setInterval(checkForSoftwareUpdate, softwareInterval)
 // setInterval(checkForContentUpdate, contentInterval)
