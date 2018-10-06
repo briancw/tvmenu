@@ -94,17 +94,17 @@ export default {
                 padding-top: 5px;
 
                 .menuItemTitle {
-                    font-size: 58px;
+                    font-size: 40px;
                     color: yellow;
                 }
 
                 .menuItemDescription {
-                    font-size: 38px;
+                    font-size: 30px;
                     padding: 10px 10px;
                 }
 
                 .menuItemPrice {
-                    font-size: 40px;
+                    font-size: 32px;
                     padding: 5px 10px 0px 10px;
                 }
             }
