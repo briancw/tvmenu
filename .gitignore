@@ -3,3 +3,4 @@ dist
 stats.html
 last-update.txt
 api-server/certs/
+api-server/db-data

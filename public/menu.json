@@ -58,18 +58,7 @@
                     "title": "Western Barbecue Burger",
                     "price": 8,
                     "//description": "Served with grilled onions, bacon, cheese, and barbecue sauce"
-                },
-                {
-                    "title": "Blue Cheese Burger",
-                    "price": 8,
-                    "//description": ""
-                },
-                {
-                    "title": "Jalapeño Burger",
-                    "price": 8,
-                    "//description": ""
                 }
-
             ]
         },
         {
