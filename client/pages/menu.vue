@@ -6,7 +6,7 @@
                 <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
                 <div class="itemDetails">
                     <div class="menuItemTitle" v-html="nl2br(item.title)"></div>
-                    <div class="menuItemDescription" v-if="item.description">{{ item.description }}</div>
+                    <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)"></div>
                     <div class="menuItemPrice" v-if="item.price">${{ item.price.toFixed(2) }}</div>
                 </div>
             </div>
