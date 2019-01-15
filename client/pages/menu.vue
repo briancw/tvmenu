@@ -93,8 +93,13 @@ export default {
         margin: 0px auto;
 
         .menuColumn {
-            width: 50%;
-            float: left;
+            // width: 47.5%;
+            width: 45%;
+            float: right;
+
+            &:first-child {
+                float: left;
+            }
 
             .menuItem {
                 clear: both;
@@ -110,7 +115,7 @@ export default {
                     padding-top: 5px;
 
                     .menuItemTitle {
-                        font-size: 60px;
+                        font-size: 64px;
                         color: yellow;
                     }
 
