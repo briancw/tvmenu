@@ -61,10 +61,6 @@ export default {
 <style lang="less">
 @import '../styles/mixins.less';
 
-body {
-    max-height: 1050px;
-}
-
 .menuWrapper {
     // display: flex;
     width: 100%;

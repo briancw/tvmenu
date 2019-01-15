@@ -13,9 +13,10 @@ export default {
 <style lang="less">
 .wrapper {
     // background-color: #054278;
-    background-color: #002f58;
+    // background-color: #002f58;
+    background-color: #000;
     color: #fff;
-    
+
     // width: 1920px;
     // height: 1080px;
 
