@@ -3,87 +3,101 @@
         {
             "pageName": "mains",
             "displayTitle": "Fair Favorites",
-            "items": [
-                {
-                    "title": "Fresh Giant Kurly Fries",
-                    "price": 8,
-                    "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
-                },
-                {
-                    "title": "Hand Dipped Corn Dog",
-                    "price": 5
-                },
-                {
-                    "title": "Hand Dipped Jumbo Corn Dog",
-                    "price": 7
-                },
-                {
-                    "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
-                    "price": 6,
-                    "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese"
-                },
-                {
-                    "title": "Jumbo Hot Dog",
-                    "price": 6,
-                    "//description": "A Jumbo quarter pound hot dog served on an outdoor roll"
-                },
-                {
-                    "title": "Taylor's Sausage Gourmet Sausage Sandwich",
-                    "price": 8,
-                    "description": "British Banger\nPolish\nItalian\nLouisiana Hot"
-                }
+            "columns": [
+                [
+                    {
+                        "title": "Fresh Giant Kurly Fries",
+                        "price": 8,
+                        "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
+                    },
+                    {
+                        "title": "Jumbo Hot Dog",
+                        "price": 6,
+                        "description": "A Jumbo quarter pound hot dog served on an outdoor roll"
+                    }
+                ],
+                [
+                    {
+                        "title": "Hand Dipped Corn Dog",
+                        "price": 5
+                    },
+                    {
+                        "title": "Hand Dipped Jumbo Corn Dog",
+                        "price": 7
+                    },
+                    {
+                        "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
+                        "price": 6,
+                        "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese"
+                    }
+                ]
             ]
         },
         {
             "pageName": "burgers",
             "displayTitle": "Burgers",
-            "items": [
-                {
-                    "title": "Hamburger",
-                    "price": 6.5
-                },
-                {
-                    "title": "Cheeseburger",
-                    "price": 7
-                },
-                {
-                    "title": "Bacon Cheeseburger",
-                    "price": 8
-                },
-                {
-                    "title": "Mushroom Swiss Burger",
-                    "price": 8
-                },
-                {
-                    "title": "Western Barbecue Burger",
-                    "price": 8,
-                    "//description": "Served with grilled onions, bacon, cheese, and barbecue sauce"
-                }
+            "description": "All burgers come with your choice of, lettuce, tomatoes, pickles, and onions",
+            "columns": [
+                [
+                    {
+                        "title": "Hamburger",
+                        "price": 6.5
+                    },
+                    {
+                        "title": "Cheeseburger",
+                        "price": 7
+                    },
+                    {
+                        "title": "Bacon Cheeseburger",
+                        "price": 8
+                    },
+                    {
+                        "title": "Mushroom Swiss Burger",
+                        "price": 8
+                    }
+                ],
+                [
+                    {
+                        "title": "Western Barbecue Burger",
+                        "price": 8,
+                        "description": "Served with grilled onions, bacon, cheese, and barbecue sauce"
+                    },
+                    {
+                        "title": "Bacon Blue-Cheese Burger",
+                        "price": 8,
+                        "description": "Made with grilled bacon and melted blue cheese crumbles"
+                    },
+                    {
+                        "title": "Jalapeño Burger",
+                        "price": 8,
+                        "description": "Loaded with Jalepeños"
+                    }
+                ]
             ]
         },
         {
             "pageName": "drinks",
             "displayTitle": "Ice Cold Drinks",
-            "items": [
-                {
-                    "title": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade"
-                },
-                {
-                    "title": "Small",
-                    "price": 3
-                },
-                {
-                    "title": "Medium",
-                    "price": 3.5
-                },
-                {
-                    "title": "Large",
-                    "price": 4
-                },
-                {
-                    "title": "Bottled Water",
-                    "price": 2.5
-                }
+            "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
+            "columns": [
+                [
+                    {
+                        "title": "Small",
+                        "price": 3
+                    },
+                    {
+                        "title": "Medium",
+                        "price": 3.5
+                    },
+                    {
+                        "title": "Large",
+                        "price": 4
+                    },
+                    {
+                        "title": "Bottled Water",
+                        "price": 2.5
+                    }
+                ]
             ]
         }
     ]
