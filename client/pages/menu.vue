@@ -115,7 +115,7 @@ export default {
                     padding-top: 5px;
 
                     .menuItemTitle {
-                        font-size: 64px;
+                        font-size: 60px;
                         color: yellow;
                     }
 
