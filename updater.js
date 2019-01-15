@@ -95,4 +95,5 @@ const softwareInterval = 1000 * 60 * 5
 setInterval(checkForSoftwareUpdate, softwareInterval)
 // setInterval(checkForContentUpdate, contentInterval)
 
-// checkForContentUpdate()
+// Check for an update after 10 seconds right after a reboot
+setTimeout(checkForSoftwareUpdate, 1000 * 10)
