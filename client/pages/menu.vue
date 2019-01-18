@@ -66,7 +66,9 @@ export default {
     width: 100%;
     margin: 0px auto;
     padding-top: 20px;
-    font-family: 'Baloo Tammudu';
+    // font-family: 'Baloo Tammudu';
+    font-family: tahoma, arial, sans-serif;
+    font-weight: 600;
     text-shadow: 4px 4px 0px #000;
     cursor: none;
     letter-spacing: 3px;
