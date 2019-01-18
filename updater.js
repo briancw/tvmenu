@@ -57,6 +57,7 @@ async function checkForSoftwareUpdate() {
 /**
  * @function checkForContentUpdate
  */
+/*
 async function checkForContentUpdate() {
     let session = http2.connect(`${apiServer}`)
     let request = session.request({
@@ -87,6 +88,7 @@ async function checkForContentUpdate() {
     //     }
     // }
 }
+*/
 
 // Check for updates every 10 minutes
 const softwareInterval = 1000 * 60 * 5
