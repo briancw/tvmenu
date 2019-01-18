@@ -77,7 +77,7 @@ export default {
     .title {
         font-size: 100px;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 20px;
         color: yellow;
     }
 
