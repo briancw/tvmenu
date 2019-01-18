@@ -32,7 +32,7 @@ async function checkForSoftwareUpdate() {
 
     console.log(`Checking for updates. ${new Date}`)
     console.log(`Current version: ${updated_at}`)
-    console.log(`Last known version: ${lastUpdate}\n`)
+    console.log(`Last known version: ${lastUpdateSoftware}\n`)
 
     if (updated_at) {
         if (updated_at !== lastUpdateSoftware) {
