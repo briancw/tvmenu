@@ -77,7 +77,7 @@ export default {
     .title {
         font-size: 100px;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 15px;
         color: yellow;
     }
 
@@ -105,7 +105,7 @@ export default {
 
             .menuItem {
                 clear: both;
-                margin-bottom: 40px;
+                margin-bottom: 35px;
 
                 .menuPic {
                     display: inline-block;
