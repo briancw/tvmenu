@@ -14,8 +14,8 @@ export default {
 .wrapper {
     // background-color: #054278;
     // background-color: #002f58;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 
     // width: 1920px;
     // height: 1080px;
