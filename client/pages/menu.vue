@@ -73,6 +73,8 @@ export default {
     cursor: none;
     letter-spacing: 3px;
     word-spacing: 5px;
+    background-color: white;
+    color: black;
 
     .title {
         font-size: 100px;
