@@ -82,6 +82,7 @@ export default {
         text-align: center;
         padding-top: 15px;
         color: yellow;
+        text-shadow: 0px 0px 4px #000;
     }
 
     .pageDescription {
@@ -122,6 +123,7 @@ export default {
                     .menuItemTitle {
                         font-size: 48px;
                         color: yellow;
+                        text-shadow: 0px 0px 4px #000;
                     }
 
                     .menuItemDescription {
