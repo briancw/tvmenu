@@ -11,11 +11,13 @@ export default {
 </script>
 
 <style lang="less">
+@import '../styles/colors.less';
+
 .wrapper {
     // background-color: #054278;
     // background-color: #002f58;
-    background-color: #fff;
-    color: #000;
+    background-color: @backgroundColor;
+
 
     // width: 1920px;
     // height: 1080px;
