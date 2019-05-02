@@ -74,8 +74,8 @@
                     },
                     {
                         "title": "Add Extra",
-
-                        "description": "Make it a double $1.50/n Add bacon $1.50"
+                        "price": 1.50,
+                        "description": "Make it a double or add bacon"
                     }
                 ]
             ]
