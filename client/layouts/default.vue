@@ -11,21 +11,11 @@ export default {
 </script>
 
 <style lang="less">
-@import '../styles/colors.less';
+@import '../styles/style-variables.less';
 
 .wrapper {
-    // background-color: #054278;
-    // background-color: #002f58;
     background-color: @backgroundColor;
-
-
-    // width: 1920px;
-    // height: 1080px;
-
-    // width: 1080px;
-    // height: 1920px;
     width: 100%;
     height: 100%;
-
 }
 </style>
