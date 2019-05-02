@@ -60,7 +60,7 @@ export default {
 
 <style lang="less">
 @import '../styles/mixins.less';
-@import '../styles/colors.less';
+@import '../styles/style-variables.less';
 
 .menuWrapper {
     // display: flex;
@@ -68,15 +68,9 @@ export default {
     height: 100%;
     margin: 0px auto;
     padding-top: 15px;
-    // font-family: 'Baloo Tammudu';
-    font-family: tahoma, arial, sans-serif;
-    font-weight: 600;
-
     cursor: none;
     letter-spacing: 3px;
     word-spacing: 5px;
-
-    color: black;
 
     .title {
         font-size: 100px;
@@ -84,6 +78,7 @@ export default {
         padding-top: 15px;
         color: @titleColor;
         text-shadow: @shadow;
+        font-family: @titleFont;
     }
 
     .pageDescription {
@@ -94,6 +89,7 @@ export default {
         padding: 10px 0px 0px;
         color: @textColor;
         text-shadow: @shadow;
+        font-family: @textFont;
     }
 
     .items {
@@ -102,7 +98,6 @@ export default {
         margin: 0px auto;
 
         .menuColumn {
-            // width: 47.5%;
             width: 45%;
             float: right;
 
@@ -127,6 +122,7 @@ export default {
                         font-size: 48px;
                         color: @titleColor;
                         text-shadow: @shadow;
+                        font-family: @titleFont;
                     }
 
                     .menuItemDescription {
@@ -134,6 +130,7 @@ export default {
                         padding: 10px 10px;
                         color: @textColor;
                         text-shadow: @shadow;
+                        font-family: @textFont;
                     }
 
                     .menuItemPrice {
@@ -141,6 +138,7 @@ export default {
                         padding: 5px 10px 0px 10px;
                         color: @textColor;
                         text-shadow: @shadow;
+                        font-family: @textFont;
                     }
                 }
             }
