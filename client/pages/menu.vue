@@ -92,7 +92,7 @@ export default {
         text-align: center;
         font-size: 46px;
         padding: 10px 0px 0px;
-        color: @titleColor;
+        color: @textColor;
         text-shadow: @shadow;
     }
 
