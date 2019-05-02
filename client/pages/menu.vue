@@ -112,7 +112,7 @@ export default {
 
             .menuItem {
                 clear: both;
-                margin-bottom: 35px;
+                margin-bottom: 30px;
 
                 .menuPic {
                     display: inline-block;
