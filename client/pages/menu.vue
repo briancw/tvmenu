@@ -60,6 +60,7 @@ export default {
 
 <style lang="less">
 @import '../styles/mixins.less';
+@import '../styles/colors.less';
 
 .menuWrapper {
     // display: flex;
