@@ -93,9 +93,16 @@
                         "title": "Large",
                         "price": 4
                     },
+                ],
+                [
                     {
                         "title": "Bottled Water",
                         "price": 2.5
+                    },
+                    {
+                        "title": "Refill Cup",
+                        "price": 6.00,
+                        "description": "Unlimited half price refills ($3.00)"
                     }
                 ]
             ]
