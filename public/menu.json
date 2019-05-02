@@ -80,7 +80,7 @@
             "displayTitle": "Ice Cold Drinks",
             "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
             "columns": [
-                [
+
                     {
                         "title": "Small",
                         "price": 3
@@ -104,7 +104,7 @@
                         "price": 6.00,
                         "description": "Unlimited half price refills ($3.00)"
                     }
-                ]
+
             ]
         }
     ]
