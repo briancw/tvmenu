@@ -71,7 +71,7 @@ export default {
     // font-family: 'Baloo Tammudu';
     font-family: tahoma, arial, sans-serif;
     font-weight: 600;
-    // text-shadow: 4px 4px 0px #000;
+
     cursor: none;
     letter-spacing: 3px;
     word-spacing: 5px;
@@ -82,8 +82,8 @@ export default {
         font-size: 100px;
         text-align: center;
         padding-top: 15px;
-        color: yellow;
-        text-shadow: 4px 4px 0px #000;
+        color: @titleColor;
+        text-shadow: @shadow;
     }
 
     .pageDescription {
@@ -92,6 +92,8 @@ export default {
         text-align: center;
         font-size: 46px;
         padding: 10px 0px 0px;
+        color: @titleColor;
+        text-shadow: @shadow;
     }
 
     .items {
@@ -123,18 +125,22 @@ export default {
 
                     .menuItemTitle {
                         font-size: 48px;
-                        color: yellow;
-                        text-shadow: 4px 4px 0px #000;
+                        color: @titleColor;
+                        text-shadow: @shadow;
                     }
 
                     .menuItemDescription {
                         font-size: 40px;
                         padding: 10px 10px;
+                        color: @textColor;
+                        text-shadow: @shadow;
                     }
 
                     .menuItemPrice {
                         font-size: 46px;
                         padding: 5px 10px 0px 10px;
+                        color: @textColor;
+                        text-shadow: @shadow;
                     }
                 }
             }
