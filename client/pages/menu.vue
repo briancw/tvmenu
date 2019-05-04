@@ -77,7 +77,7 @@ export default {
         text-align: center;
         padding-top: 15px;
         color: @titleColor;
-        text-shadow: @shadow;
+        text-shadow: @titleShadow;
         font-family: @titleFont;
     }
 
