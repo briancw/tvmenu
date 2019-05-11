@@ -93,7 +93,7 @@ export default {
     }
 
     .items {
-        padding-top: 85px;
+        padding-top: 65px;
         width: 90%;
         margin: 0px auto;
 
