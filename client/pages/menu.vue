@@ -45,7 +45,7 @@ export default {
     },
     methods: {
         async getMenuData() {
-            let res = await fetch('/menu-data')
+            let res = await fetch('/menu.json')
             let menuContent = await res.json()
 
             menuContent.pages.forEach((page) => {

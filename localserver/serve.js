@@ -17,12 +17,12 @@ if (process.env.NODE_ENV === 'development') {
     const hmr = require('./hmr.js')(app)
 }
 
-app.get('/menu-data', (req, res) => {
-    let menuContentRaw = fs.readFileSync('./menu.yaml', 'utf8')
-    let menuData = yaml.parse(menuContentRaw)
-    let menuDataJson = JSON.stringify(menuData)
-    res.send(menuDataJson)
-})
+// app.get('/menu-data', (req, res) => {
+//     let menuContentRaw = fs.readFileSync('./menu.yaml', 'utf8')
+//     let menuData = yaml.parse(menuContentRaw)
+//     let menuDataJson = JSON.stringify(menuData)
+//     res.send(menuDataJson)
+// })
 
 app.use('/', express.static(path.resolve(__dirname, '../', 'public')))
 app.use(fallback('index.html', {root: path.resolve(__dirname, '../', 'public')}))
