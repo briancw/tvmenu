@@ -1,8 +1,10 @@
 <template>
     <div id="pageWrapper">
-        <router-link class="pageLink" v-if="menuContent.pages" v-for="page in menuContent.pages" :key="page.pageName" :to="`/menu/${page.pageName}`">
-            {{ page.displayTitle }}
-        </router-link>
+        <template v-if="menuContent.pages">
+            <router-link class="pageLink" v-for="page in menuContent.pages" :key="page.pageName" :to="`/menu/${page.pageName}`">
+                {{ page.displayTitle }}
+            </router-link>
+        </template>
     </div>
 </template>
 
@@ -24,7 +26,7 @@ export default {
     },
     methods: {
         async getMenuData() {
-            let res = await fetch('/menu.json')
+            let res = await fetch('/menu-data')
             this.menuContent = await res.json()
         }
     }

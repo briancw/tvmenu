@@ -14,11 +14,6 @@
                         "title": "Jumbo Hot Dog",
                         "price": 6,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
-                    },
-                    {
-                        "title": "Gourmet Sausage on a bun",
-                        "price": 8.00,
-                        "description": "British Banger, Polish, Italian, or Louisiana Hot\nA jumbo Taylor's Sausage served on an outdoor rolled with grilled onions, peppers, and tomatoes"
                     }
                 ],
                 [
@@ -88,7 +83,8 @@
         {
             "pageName": "drinks",
             "displayTitle": "Ice Cold Drinks",
-            "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
+            "1-description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
+            "description": "Coke, Diet Coke, Dr. Pepper, Sprite, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
             "columns": [
                 [
                     {
