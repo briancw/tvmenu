@@ -54,6 +54,11 @@
                     {
                         "title": "Mushroom Swiss Burger",
                         "price": 8
+                    },
+                    {
+                        "title": "Jalapeño Burger",
+                        "price": 8.00,
+                        "description": "Loaded with jalapeños"
                     }
                 ],
                 [
