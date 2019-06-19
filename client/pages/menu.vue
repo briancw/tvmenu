@@ -97,7 +97,7 @@ export default {
 
         .menuItem {
             clear: both;
-            margin-bottom: 60px;
+            margin-bottom: 50px;
 
             .menuPic {
                 display: inline-block;
