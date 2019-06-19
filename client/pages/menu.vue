@@ -6,9 +6,9 @@
             <div v-for="(item, itemIndex) in pageContent.items" class="menuItem" :key="itemIndex">
                 <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
                 <div class="itemDetails">
-                    <div class="menuItemTitle" v-html="nl2br(item.title)"></div>
-                    <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)"></div>
-                    <div class="menuItemPrice" v-if="item.price">${{ item.price.toFixed(2) }}</div>
+                    <div class="menuItemTitle" v-html="nl2br(item.title)" :style="{fontSize: pageContent.titleSize}"></div>
+                    <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)" :style={fontSize: descriptionSize}"></div>
+                    <div class="menuItemPrice" v-if="item.price" :style="{fontSize: priceSize}">${{ item.price.toFixed(2) }}</div>
                 </div>
             </div>
         </div>
