@@ -3,8 +3,7 @@
         {
             "pageName": "mains",
             "displayTitle": "Fair Favorites",
-            "columns": [
-                [
+            "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
                         "price": 8,
@@ -14,9 +13,7 @@
                         "title": "Jumbo Hot Dog",
                         "price": 6,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
-                    }
-                ],
-                [
+                    },
                     {
                         "title": "Hand Dipped Corn Dog",
                         "price": 5
@@ -31,14 +28,12 @@
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese"
                     }
                 ]
-            ]
         },
         {
             "pageName": "burgers",
             "displayTitle": "Burgers",
             "description": "All burgers come with your choice of lettuce, tomatoes, pickles, and onions",
-            "columns": [
-                [
+            "items": [
                     {
                         "title": "Hamburger",
                         "price": 6.5
@@ -59,9 +54,7 @@
                         "title": "Jalapeño Burger",
                         "price": 8.00,
                         "description": "Loaded with jalapeños"
-                    }
-                ],
-                [
+                    },
                     {
                         "title": "Western Barbecue Burger",
                         "price": 8,
@@ -77,16 +70,13 @@
                         "price": 1.50,
                         "description": "Make it a double or add bacon"
                     }
-                ]
             ]
         },
         {
             "pageName": "drinks",
             "displayTitle": "Ice Cold Drinks",
             "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
-            "coke-description": "Coke, Diet Coke, Dr. Pepper, Sprite, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
-            "columns": [
-                [
+            "items": [
                     {
                         "title": "Small",
                         "price": 3
@@ -98,9 +88,7 @@
                     {
                         "title": "Large",
                         "price": 4
-                    }
-                ],
-                [
+                    },
                     {
                         "title": "Bottled Water",
                         "price": 2.5
@@ -110,7 +98,6 @@
                         "price": 6.00,
                         "description": "Unlimited half price refills"
                     }
-                ]
             ]
         }
     ]
