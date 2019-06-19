@@ -3,14 +3,12 @@
         <div class="title">{{ pageContent.displayTitle }}</div>
         <div class="pageDescription">{{ pageContent.description }}</div>
         <div class="items">
-            <div v-for="(column, columnIndex) in pageContent.columns" class="menuColumn" :key="columnIndex">
-                <div v-for="(item, itemIndex) in column" class="menuItem" :key="itemIndex">
-                    <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
-                    <div class="itemDetails">
-                        <div class="menuItemTitle" v-html="nl2br(item.title)"></div>
-                        <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)"></div>
-                        <div class="menuItemPrice" v-if="item.price">${{ item.price.toFixed(2) }}</div>
-                    </div>
+            <div v-for="(item, itemIndex) in items" class="menuItem" :key="itemIndex">
+                <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
+                <div class="itemDetails">
+                    <div class="menuItemTitle" v-html="nl2br(item.title)"></div>
+                    <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)"></div>
+                    <div class="menuItemPrice" v-if="item.price">${{ item.price.toFixed(2) }}</div>
                 </div>
             </div>
         </div>
@@ -97,49 +95,40 @@ export default {
         width: 90%;
         margin: 0px auto;
 
-        .menuColumn {
-            width: 45%;
-            float: right;
+        .menuItem {
+            clear: both;
+            margin-bottom: 30px;
 
-            &:first-child {
-                float: left;
+            .menuPic {
+                display: inline-block;
             }
 
-            .menuItem {
-                clear: both;
-                margin-bottom: 30px;
+            .itemDetails {
+                display: inline-block;
+                vertical-align: top;
+                padding-top: 5px;
 
-                .menuPic {
-                    display: inline-block;
+                .menuItemTitle {
+                    font-size: 48px;
+                    color: @titleColor;
+                    text-shadow: @shadow;
+                    font-family: @titleFont;
                 }
 
-                .itemDetails {
-                    display: inline-block;
-                    vertical-align: top;
-                    padding-top: 5px;
+                .menuItemDescription {
+                    font-size: 40px;
+                    padding: 10px 10px;
+                    color: @textColor;
+                    text-shadow: @shadow;
+                    font-family: @textFont;
+                }
 
-                    .menuItemTitle {
-                        font-size: 48px;
-                        color: @titleColor;
-                        text-shadow: @shadow;
-                        font-family: @titleFont;
-                    }
-
-                    .menuItemDescription {
-                        font-size: 40px;
-                        padding: 10px 10px;
-                        color: @textColor;
-                        text-shadow: @shadow;
-                        font-family: @textFont;
-                    }
-
-                    .menuItemPrice {
-                        font-size: 46px;
-                        padding: 5px 10px 0px 10px;
-                        color: @textColor;
-                        text-shadow: @shadow;
-                        font-family: @textFont;
-                    }
+                .menuItemPrice {
+                    font-size: 46px;
+                    padding: 5px 10px 0px 10px;
+                    color: @textColor;
+                    text-shadow: @shadow;
+                    font-family: @textFont;
                 }
             }
         }
