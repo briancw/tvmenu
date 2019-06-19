@@ -3,6 +3,9 @@
         {
             "pageName": "mains",
             "displayTitle": "Fair Favorites",
+            "titleSize": "52px",
+            "descriptionSize": "44px",
+            "priceSize": "50px
             "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
@@ -33,6 +36,9 @@
             "pageName": "burgers",
             "displayTitle": "Burgers",
             "description": "All burgers come with your choice of lettuce, tomatoes, pickles, and onions",
+            "titleSize": "48px",
+            "descriptionSize": "40px",
+            "priceSize": "46px",
             "items": [
                     {
                         "title": "Hamburger",
@@ -76,6 +82,9 @@
             "pageName": "drinks",
             "displayTitle": "Ice Cold Drinks",
             "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
+            "titleSize": "52px",
+            "descriptionSize": "44px",
+            "priceSize": "50px
             "items": [
                     {
                         "title": "Small",
