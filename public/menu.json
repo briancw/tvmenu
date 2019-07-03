@@ -29,7 +29,7 @@
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
                         "price": 7,
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese",
-                        "enabled": false
+                        "enabled": true
                     }
                 ]
         },
