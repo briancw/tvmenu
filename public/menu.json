@@ -34,7 +34,7 @@
                     {
                         "title": "Gourmet Sausage on a Bun",
                         "price": 8,
-                        "description": "British Banger, Polish, Italian, or Louisiana Hot",
+                        "description": "British Banger<br>, Polish, Italian, or Louisiana Hot",
                         "enabled": true
                     }
                 ]
