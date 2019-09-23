@@ -49,38 +49,38 @@
             "items": [
                     {
                         "title": "Hamburger",
-                        "price": 6.5
-                    },
-                    {
-                        "title": "Cheeseburger",
                         "price": 7
                     },
                     {
-                        "title": "Bacon Cheeseburger",
+                        "title": "Cheeseburger",
                         "price": 8
+                    },
+                    {
+                        "title": "Bacon Cheeseburger",
+                        "price": 9
                     },
                     {
                         "title": "Mushroom Swiss Burger",
-                        "price": 8
+                        "price": 9
                     },
                     {
                         "title": "Jalapeño Cheeseburger",
-                        "price": 8.00,
+                        "price": 9,
                         "description": "Loaded with jalapeños"
                     },
                     {
                         "title": "Western Barbecue Burger",
-                        "price": 8,
+                        "price": 9,
                         "description": "Served with grilled onions, bacon, cheese, and barbecue sauce"
                     },
                     {
                         "title": "Bacon Blue-Cheese Burger",
-                        "price": 8,
+                        "price": 9,
                         "description": "Made with grilled bacon and melted blue cheese crumbles"
                     },
                     {
                         "title": "Add Extra",
-                        "price": 1.50,
+                        "price": 2,
                         "description": "Make it a double or add bacon"
                     }
             ]
