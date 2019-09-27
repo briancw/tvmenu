@@ -91,6 +91,17 @@ export default {
         font-family: @textFont;
     }
 
+    .followup {
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 46px;
+        padding: 10px 0px 0px;
+        color: @textColor;
+        text-shadow: @shadow;
+        font-family: @textFont;
+    }
+
     .items {
         padding-top: 65px;
         width: 90%;
