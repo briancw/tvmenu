@@ -88,10 +88,11 @@
         {
             "pageName": "drinks",
             "displayTitle": "Ice Cold Drinks",
-            "description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
+            "//description": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade",
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
+            "followup": "Pepsi, Diet Pepsi, Dr. Pepper, Sierra Mist, Mt. Dew, Root Beer, Lemonade, Strawberry Lemonade"
             "items": [
                     {
                         "title": "Small",
