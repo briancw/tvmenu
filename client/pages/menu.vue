@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class="followup">{{ pageContent.followup }}</div>
+        <div class="followup" v-html="nl2br(pageContent.followup)"></div>
     </div>
 </template>
 
