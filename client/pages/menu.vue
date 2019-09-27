@@ -12,6 +12,7 @@
                 </div>
             </div>
         </div>
+        <div class="followup">{{ pageContet.followup }}</div>
     </div>
 </template>
 
