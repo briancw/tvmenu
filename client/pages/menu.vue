@@ -95,11 +95,12 @@ export default {
         width: 90%;
         margin: 0px auto;
         text-align: center;
-        font-size: 46px;
+        font-size: 64px;
         padding: 10px 0px 0px;
         color: @textColor;
         text-shadow: @shadow;
         font-family: @textFont;
+        line-height: 80px;
     }
 
     .items {
