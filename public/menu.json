@@ -92,7 +92,7 @@
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
-            "followup": "Pepsi<br>Diet Pepsi<br>Dr Pepper<br>Sierra Mist<br>Mountain Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
+            "followup": "Pepsi<br>Diet Pepsi<br><!--Dr Pepper<br>-->Sierra Mist<br>Mountain Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
             "items": [
                     {
                         "title": "Small",
