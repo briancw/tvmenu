@@ -66,7 +66,8 @@
                     {
                         "title": "Jalapeño Cheeseburger",
                         "price": 9,
-                        "description": "Loaded with jalapeños"
+                        "description": "Loaded with jalapeños",
+                        "enabled": false
                     },
                     {
                         "title": "Western Barbecue Burger",
