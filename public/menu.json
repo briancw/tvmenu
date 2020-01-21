@@ -77,7 +77,8 @@
                     {
                         "title": "Bacon Blue-Cheese Burger",
                         "price": 9,
-                        "description": "Made with grilled bacon and melted blue cheese crumbles"
+                        "description": "Made with grilled bacon and melted blue cheese crumbles",
+                        "enabled": false
                     },
                     {
                         "title": "Add Extra",
