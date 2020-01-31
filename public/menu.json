@@ -2,7 +2,7 @@
     "pages": [
         {
             "pageName": "mains",
-            "displayTitle": "Fair Favorites",
+            "displayTitle": "Favorites",
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
@@ -35,7 +35,7 @@
                         "title": "Taylor's Gourmet Sausage on a Bun",
                         "price": 9,
                         "description": "British Banger<br>Polish<br>Italian<br>Louisiana Hot<br><br>Served on a bun with grilled onions, peppers, and tomatoes",
-                        "enabled": true
+                        "enabled": false
                     }
                 ]
         },
@@ -61,18 +61,20 @@
                     },
                     {
                         "title": "Mushroom Swiss Burger",
-                        "price": 9
+                        "price": 9,
+                        "enabled": false
                     },
                     {
                         "title": "Jalapeño Cheeseburger",
                         "price": 9,
                         "description": "Loaded with jalapeños",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Western Barbecue Burger",
                         "price": 9,
-                        "description": "Served with grilled onions, bacon, cheese, and barbecue sauce"
+                        "description": "Served with grilled onions, bacon, cheese, and barbecue sauce",
+                        "enabled": false
                     },
                     {
                         "title": "Bacon Blue-Cheese Burger",
@@ -94,7 +96,8 @@
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
-            "followup": "Pepsi<br>Diet Pepsi<br>Dr Pepper<br>Sierra Mist<br>Mountain Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
+            "followup-regular": "Pepsi<br>Diet Pepsi<br>Dr Pepper<br>Sierra Mist<br>Mountain Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
+            "followup": "Lemonade<br>Starwberry Lemonade",
             "items": [
                     {
                         "title": "Small",
