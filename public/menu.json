@@ -9,25 +9,25 @@
             "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
-                        "price": 9,
+                        "price": 12,
                         "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
                     },
                     {
                         "title": "Jumbo Hot Dog",
-                        "price": 7,
+                        "price": 8,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
                     },
                     {
                         "title": "Hand Dipped Corn Dog",
-                        "price": 5
+                        "price": 7,
                     },
                     {
                         "title": "Hand Dipped Jumbo Corn Dog",
-                        "price": 7
+                        "price": 10,
                     },
                     {
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
-                        "price": 7,
+                        "price": 10,
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese",
                         "enabled": true
                     },
@@ -49,15 +49,15 @@
             "items": [
                     {
                         "title": "Hamburger",
-                        "price": 7
+                        "price": 9
                     },
                     {
                         "title": "Cheeseburger",
-                        "price": 8
+                        "price": 10
                     },
                     {
                         "title": "Bacon Cheeseburger",
-                        "price": 9
+                        "price": 11
                     },
                     {
                         "title": "Mushroom Swiss Burger",
@@ -83,9 +83,9 @@
                         "enabled": false
                     },
                     {
-                        "title": "Add Extra",
-                        "price": 2,
-                        "description": "Make it a double or add bacon"
+                        "title": "Make it a double",
+                        "price": 3,
+                        "description-disabled": "Make it a double"
                     }
             ]
         },
@@ -105,15 +105,19 @@
                     },
                     {
                         "title": "Medium",
-                        "price": 3.5
-                    },
-                    {
-                        "title": "Large",
                         "price": 4
                     },
                     {
+                        "title": "Large",
+                        "price": 5
+                    },
+                    {
                         "title": "Bottled Water",
-                        "price": 2.5
+                        "price": 3
+                    },
+                    {
+                        "title": "Bottled Soda",
+                        "price": 4
                     },
                     {
                         "title": "Refill Cup",
