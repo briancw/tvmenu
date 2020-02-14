@@ -29,7 +29,7 @@
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
                         "price": 10,
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Taylor's Gourmet Sausage on a Bun",
@@ -96,8 +96,16 @@
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
-            "followup": "Pepsi<br>Diet Pepsi<br>Lemonade",
+            "//followup": "Pepsi<br>Diet Pepsi<br>Lemonade",
             "items": [
+                    {
+                        "title": "Bottled Soda",
+                        "price": 4,
+                        "description": "Pepsi, Diet Pepsi, Dr. Pepper, Mtn Dew, Sprite, Gatorade"
+                    },
+                    {
+                         "title": "Lemonade"
+                    },
                     {
                         "title": "Small",
                         "price": 3
