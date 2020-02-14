@@ -124,10 +124,6 @@
                         "enabled": false
                     },
                     {
-                        "title": "Bottled Soda",
-                        "price": 4
-                    },
-                    {
                         "title": "Refill Cup",
                         "price": 6.00,
                         "description": "Unlimited half price refills"
