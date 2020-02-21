@@ -9,25 +9,25 @@
             "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
-                        "price": 12,
+                        "price": 9,
                         "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
                     },
                     {
                         "title": "Jumbo Hot Dog",
-                        "price": 8,
+                        "price": 6,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
                     },
                     {
                         "title": "Hand Dipped Corn Dog",
-                        "price": 7
+                        "price": 5
                     },
                     {
                         "title": "Hand Dipped Jumbo Corn Dog",
-                        "price": 10
+                        "price": 7
                     },
                     {
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
-                        "price": 10,
+                        "price": 8,
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese",
                         "enabled": true
                     },
@@ -49,42 +49,42 @@
             "items": [
                     {
                         "title": "Hamburger",
-                        "price": 9
+                        "price": 7
                     },
                     {
                         "title": "Cheeseburger",
-                        "price": 10
+                        "price": 8
                     },
                     {
                         "title": "Bacon Cheeseburger",
-                        "price": 11
+                        "price": 9
                     },
                     {
                         "title": "Mushroom Swiss Burger",
                         "price": 9,
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Jalapeño Cheeseburger",
                         "price": 9,
                         "description": "Loaded with jalapeños",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Western Barbecue Burger",
                         "price": 9,
                         "description": "Served with grilled onions, bacon, cheese, and barbecue sauce",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Bacon Blue-Cheese Burger",
                         "price": 9,
                         "description": "Made with grilled bacon and melted blue cheese crumbles",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Make it a double",
-                        "price": 3,
+                        "price": 2,
                         "description-disabled": "Make it a double"
                     }
             ]
@@ -96,31 +96,23 @@
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
-            "//followup": "Pepsi<br>Diet Pepsi<br>Lemonade",
+            "followup": "Pepsi<br>Diet Pepsi<br>Dr. Pepper<br>Sierra Mist<br>Mtn Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
             "items": [
-                    {
-                        "title": "Bottled Soda",
-                        "price": 4,
-                        "description": "Pepsi, Diet Pepsi, Dr. Pepper, Mtn Dew, Sprite, Gatorade"
-                    },
-                    {
-                         "title": "Lemonade"
-                    },
                     {
                         "title": "Small",
                         "price": 3
                     },
                     {
                         "title": "Medium",
-                        "price": 4
+                        "price": 3.5
                     },
                     {
                         "title": "Large",
-                        "price": 5
+                        "price": 4
                     },
                     {
                         "title": "Bottled Water",
-                        "price": 3,
+                        "price": 2.5,
                         "enabled": true
                     },
                     {
