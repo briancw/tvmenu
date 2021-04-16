@@ -113,7 +113,7 @@
                     {
                         "title": "Bottled Water",
                         "price": 2.5,
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Refill Cup",
