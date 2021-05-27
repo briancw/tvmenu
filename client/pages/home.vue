@@ -37,7 +37,7 @@ export default {
 @import '../styles/mixins.less';
 
 .pageLink {
-    color: #fff;
+    color: #FFC0CB;
     font-size: 50px;
     margin-right: 15px;
 }
