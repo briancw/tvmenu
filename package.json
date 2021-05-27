@@ -30,7 +30,7 @@
         "electron": "^2.0.10",
         "express": "^4.16.3",
         "express-history-api-fallback": "^2.2.1",
-        "fastify": "^1.12.0",
+        "fastify": "^2.15.1",
         "html-webpack-plugin": "^3.2.0",
         "http-proxy": "^1.17.0",
         "less": "^3.8.1",
