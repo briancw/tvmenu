@@ -28,8 +28,8 @@ export default {
         async getMenuData() {
             let res = await fetch('/menu.json')
             this.menuContent = await res.json()
-        }
-    }
+        },
+    },
 }
 </script>
 

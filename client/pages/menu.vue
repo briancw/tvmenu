@@ -4,7 +4,6 @@
         <div class="pageDescription" v-html="pageContent.description"></div>
         <div class="items">
             <div v-for="(item, itemIndex) in pageContent.items" v-if="item.enabled !== false" class="menuItem" :key="itemIndex">
-                <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
                 <div class="itemDetails">
                     <div class="menuItemTitle" v-html="nl2br(item.title)" :style="{fontSize: pageContent.titleSize}"></div>
                     <div class="menuItemDescription" v-if="item.description" v-html="nl2br(item.description)" :style="{fontSize: descriptionSize}"></div>
@@ -66,7 +65,6 @@ export default {
     width: 100%;
     height: 100%;
     margin: 0px auto;
-    padding-top: 15px;
     cursor: none;
     letter-spacing: 3px;
     word-spacing: 5px;
@@ -78,6 +76,7 @@ export default {
         color: @titleColor;
         text-shadow: @titleShadow;
         font-family: @titleFont;
+        height: 115px;
     }
 
     .pageDescription {
@@ -104,9 +103,18 @@ export default {
     }
 
     .items {
-        padding-top: 65px;
-        width: 90%;
-        margin: 0px auto;
+        // padding-top: 65px;
+        // width: 90%;
+        // margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 115px;
+        left: 10%;
+        right: 10%;
+        bottom: 50px;
+        padding-top: 50px;
 
         .menuItem {
             clear: both;
