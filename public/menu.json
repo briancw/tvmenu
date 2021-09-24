@@ -2,7 +2,7 @@
     "pages": [
         {
             "pageName": "mains",
-            "displayTitle": "Fair Favorites",
+            "displayTitle": "Fair<br>Favorites",
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
@@ -24,7 +24,8 @@
                     },
                     {
                         "title": "Hand Dipped Jumbo Corn Dog",
-                        "price": 8
+                        "price": 8,
+                        "description": "A jumbo quarter pound hot dog hand dipped in batter"
                     },
                     {
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
