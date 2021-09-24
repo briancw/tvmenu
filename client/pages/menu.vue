@@ -1,7 +1,7 @@
 <template>
     <div class="menuWrapper">
         <div class="title">{{ pageContent.displayTitle }}</div>
-        <div class="pageDescription">{{ pageContent.description }}</div>
+        <div class="pageDescription" v-html="pageContent.description"></div>
         <div class="items">
             <div v-for="(item, itemIndex) in pageContent.items" v-if="item.enabled !== false" class="menuItem" :key="itemIndex">
                 <!-- <img class="menuPic" v-if="item.img" src="http://placehold.it/100x100" /> -->
