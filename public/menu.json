@@ -10,21 +10,21 @@
             "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
-                        "price": 10,
+                        "price": 14,
                         "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
                     },
                     {
                         "title": "Jumbo Hot Dog",
-                        "price": 7,
+                        "price": 9,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
                     },
                     {
                         "title": "Hand Dipped Corn Dog",
-                        "price": 6
+                        "price": 8
                     },
                     {
                         "title": "Hand Dipped Jumbo Corn Dog",
-                        "price": 8,
+                        "price": 11,
                         "description": "A jumbo quarter pound hot dog hand dipped in batter"
                     },
                     {
@@ -51,42 +51,42 @@
             "items": [
                     {
                         "title": "Hamburger",
-                        "price": 7
+                        "price": 10
                     },
                     {
                         "title": "Cheeseburger",
-                        "price": 8
+                        "price": 11
                     },
                     {
                         "title": "Bacon Cheeseburger",
-                        "price": 9
+                        "price": 12
                     },
                     {
                         "title": "Mushroom Swiss Burger",
                         "price": 9,
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Jalapeño Cheeseburger",
                         "price": 9,
                         "description": "Loaded with jalapeños",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Western Barbecue Burger",
                         "price": 9,
                         "description": "Served with grilled onions, bacon, cheese, and barbecue sauce",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Bacon Blue-Cheese Burger",
                         "price": 9,
                         "description": "Made with grilled bacon and melted blue cheese crumbles",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Make it a double",
-                        "price": 2,
+                        "price": 3,
                         "description-disabled": "Make it a double"
                     }
             ]
@@ -103,15 +103,23 @@
             "items": [
                     {
                         "title": "Small",
-                        "price": 3
+                        "price": 3,
+                        "enabled": false
                     },
                     {
                         "title": "Medium",
-                        "price": 3.5
+                        "price": 3.5,
+                        "enabled": false
                     },
                     {
                         "title": "Large",
-                        "price": 4
+                        "price": 4,
+                        "enabled": false
+                    },
+                    {
+                        "title": "Bottled Soda",
+                        "price": 4,
+                        "enabled": true
                     },
                     {
                         "title": "Bottled Water",
@@ -121,7 +129,8 @@
                     {
                         "title": "Half Price Refill Souvenir Cup",
                         "price": 6.00,
-                        "description": "Half price refills at many vendors around the fair"
+                        "description": "Half price refills at many vendors around the fair",
+                        "enabled": false
                     }
             ]
         }
