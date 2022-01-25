@@ -108,12 +108,12 @@
                     },
                     {
                         "title": "Medium",
-                        "price": 3.5,
+                        "price": 4,
                         "enabled": true
                     },
                     {
                         "title": "Large",
-                        "price": 4,
+                        "price": 5,
                         "enabled": true
                     },
                     {
