@@ -10,28 +10,28 @@
             "items": [
                     {
                         "title": "Fresh Giant Kurly Fries",
-                        "price": 14,
+                        "price": 10,
                         "description": "Made fresh to order, our Giant Kurly Fries are served piled high in a five pound tray"
                     },
                     {
                         "title": "Jumbo Hot Dog",
-                        "price": 9,
+                        "price": 7,
                         "description": "A Jumbo quarter pound hot dog served on a french roll"
                     },
                     {
                         "title": "Hand Dipped Corn Dog",
-                        "price": 8
+                        "price": 6
                     },
                     {
                         "title": "Hand Dipped Jumbo Corn Dog",
-                        "price": 12,
+                        "price": 9,
                         "description": "A jumbo quarter pound hot dog hand dipped in batter"
                     },
                     {
                         "title": "Hand Dipped Jalapeño Cheddar Corn Dog",
-                        "price": 8,
+                        "price": 9,
                         "description": "Made from a Taylor's Sausage Hot Dog loaded with Jalapeños and Cheddar cheese",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Taylor's Gourmet Sausage on a Bun",
@@ -51,38 +51,38 @@
             "items": [
                     {
                         "title": "Hamburger",
-                        "price": 10
+                        "price": 8
                     },
                     {
                         "title": "Cheeseburger",
-                        "price": 12
+                        "price": 9
                     },
                     {
                         "title": "Bacon Cheeseburger",
-                        "price": 14
+                        "price": 10
                     },
                     {
                         "title": "Mushroom Swiss Burger",
-                        "price": 9,
-                        "enabled": false
+                        "price": 10,
+                        "enabled": true
                     },
                     {
                         "title": "Jalapeño Cheeseburger",
-                        "price": 9,
+                        "price": 10,
                         "description": "Loaded with jalapeños",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Western Barbecue Burger",
-                        "price": 9,
+                        "price": 10,
                         "description": "Served with grilled onions, bacon, cheese, and barbecue sauce",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Bacon Blue-Cheese Burger",
-                        "price": 9,
+                        "price": 10,
                         "description": "Made with grilled bacon and melted blue cheese crumbles",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Make it a double",
@@ -98,29 +98,28 @@
             "titleSize": "52px",
             "descriptionSize": "44px",
             "priceSize": "50px",
-            "followup": "Pepsi<br>Diet Pepsi<br>Dr. Pepper<br>Sprite<br>Mtn Dew",
-            "//followup": "Pepsi<br>Diet Pepsi<br>Dr. Pepper<br>Sierra Mist<br>Mtn Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
+            "followup": "Pepsi<br>Diet Pepsi<br>Dr. Pepper<br>Sierra Mist<br>Mtn Dew<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
             "//coke-//followup": "Coke<br>Diet Coke<br>Pibb Xtra<br>Sprite<br>Orange Fanta<br>Root Beer<br>Lemonade<br>Strawberry Lemonade",
             "items": [
                     {
                         "title": "Small",
                         "price": 3,
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Medium",
                         "price": 3.5,
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Large",
                         "price": 4,
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "title": "Bottled Soda",
                         "price": 4,
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "title": "Bottled Water",
