@@ -3,8 +3,8 @@
         {
             "pageName": "mains",
             "displayTitle": "Fair Favorites",
-            "titleSize": "52px",
-            "descriptionSize": "44px",
+            "titleSize": "48px",
+            "descriptionSize": "30px",
             "priceSize": "50px",
             "//extraItemSpace": "100px",
             "items": [
