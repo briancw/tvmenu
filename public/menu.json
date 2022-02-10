@@ -37,7 +37,7 @@
                         "title": "Taylor's Gourmet Sausage on a Bun",
                         "price": 10,
                         "description": "British Banger, Polish, Italian, Louisiana Hot<br>Served on a bun with grilled onions, peppers, and tomatoes",
-                        "enabled": true
+                        "enabled": false
                     }
                 ]
         },
